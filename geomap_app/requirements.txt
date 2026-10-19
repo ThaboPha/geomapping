@@ -1,0 +1,8 @@
+streamlit>=1.65
+pandas>=2.1
+numpy>=1.26
+pydeck>=0.9
+altair>=5.2
+databricks-sql-connector>=3.4
+databricks-sdk>=0.30
+PyYAML>=6.0

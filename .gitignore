@@ -1,0 +1,25 @@
+.venv*/
+__pycache__/
+*.py[cod]
+.browser-cache/
+artifacts/
+zip_reference/
+geomap_app/snapshotdata*/
+geomap_app/geographic_reference/
+local-settings.json
+.env
+.env.*
+!.env.example
+profiles.yml
+.azure/
+.dbt/
+.databricks/
+*.log
+*.zip
+*.parquet
+*.pdf
+nominatim_*_results.json
+azure/*probe.json
+azure/build-status.json
+zip_review.txt
+SAM Sample Prac Address*.sql

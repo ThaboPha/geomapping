@@ -1,0 +1,25 @@
+# Databricks Apps configuration
+command: ["streamlit", "run", "app.py"]
+
+env:
+  - name: GEOMAP_MODE
+    value: "databricks"
+  - name: GEOMAP_CATALOG
+    value: "hive_metastore"
+  - name: GEOMAP_SCHEMA
+    value: "geomap"
+  - name: DATABRICKS_WAREHOUSE_ID
+    valueFrom: "sql-warehouse"     # app resource key for the SQL warehouse
+  # Location / option references and required current membership source
+  - name: GEOMAP_PLACE_TABLE
+    value: "PlaceCentroid"
+  - name: GEOMAP_OPTION_TABLE
+    value: "ProductOption"
+  - name: GEOMAP_MEMBER_CATALOG
+    value: "hive_metastore"
+  - name: GEOMAP_MEMBER_SCHEMA
+    value: "care_coordination_reporting"
+  - name: GEOMAP_CURRENT_MEMBER_TABLE
+    value: "vw_member_current"
+  - name: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+    value: "false"

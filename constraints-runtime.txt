@@ -1,0 +1,5 @@
+# Native library versions already validated with this laptop's Python 3.13 environment.
+streamlit==1.65.0
+pandas==2.2.3
+numpy==2.5.0
+pyarrow==24.0.0

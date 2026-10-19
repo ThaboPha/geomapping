@@ -1,0 +1,2 @@
+-r geomap_app/requirements.txt
+playwright>=1.63

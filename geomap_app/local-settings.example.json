@@ -1,0 +1,8 @@
+{
+  "GEOMAP_MODE": "databricks",
+  "GEOMAP_BACKEND": "live",
+  "GEOMAP_CATALOG": "hive_metastore",
+  "GEOMAP_SCHEMA": "geomap",
+  "GEOMAP_DBT_PROFILE": "your-profile-name",
+  "GEOMAP_DBT_TARGET": "dev"
+}
